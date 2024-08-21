@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import ProductList from './ProductList';
 import './App.css';
@@ -14,7 +13,7 @@ function App() {
 
   return (
     <div className="app-container">
-      <div className={`landing-page ${showProductList ? 'fade-out' : ''}`}>
+      <div className={landing-page ${showProductList ? 'fade-out' : ''}}>
         <div className="background-image"></div>
         <div className="content">
          <div className="landing_content">
@@ -32,7 +31,7 @@ function App() {
           </div>
 
       </div>
-      <div className={`product-list-container ${showProductList ? 'visible' : ''}`}>
+      <div className={product-list-container ${showProductList ? 'visible' : ''}}>
         <ProductList />
       </div>
     </div>
@@ -40,6 +39,3 @@ function App() {
 }
 
 export default App;
-
-
-
